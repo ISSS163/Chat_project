@@ -107,5 +107,8 @@ namespace Server
         /// <param name="sessionId">Идентификатор сессии</param>
         /// <param name="msg">Сообщение</param>
         void SendMessage(Guid sessionId, Message msg);
+
+        
+
     }
 }
